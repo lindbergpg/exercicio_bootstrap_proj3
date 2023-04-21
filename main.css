@@ -1,0 +1,77 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #fff;
+    border-bottom: 1px solid #3333331a;
+}
+
+.nav .nav-link.active {
+    background-color: #005459;
+    color: #fff;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+#contato .social-links i,
+#contato .social-links p {
+    color: #333333;
+}
+
+.navbar-toggler {
+    background-color: #f1f1f1;
+}
+
+.carousel-control-prev span,
+.carousel-control-next span {
+    background-color: #3333337e;
+}
+
+.section-title {
+    font-family: 'Anton', sans-serif;
+}
+
+.refes ul li {
+    list-style: none;
+}
+
+.text-colored {
+    color: #005459;
+}
+
+.refes i {
+    color: #005459;
+}
+
+#eventos,
+#contato {
+    background-color: #0055592b;
+}
+
+textarea {
+    resize: none;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contato button {
+    background-color: #005459;
+    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    
+}

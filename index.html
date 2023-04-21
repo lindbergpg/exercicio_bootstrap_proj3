@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sem nome - Produtos Hospitalares</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top pt-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand section-title m-0">Sem nome - Produtos Hospitalares</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon">
+
+                </span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check  me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#especialidades" class="nav-link">
+                            <i class="bi bi-clipboard2-pulse  me-1"></i>
+                            Especialidades
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-chat-left-text  me-1"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel-init">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./imagens/slides/slide1.jpeg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imagens/slides/slide2.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./imagens/slides/slide3.jpg" alt="">
+                    </div>
+                </div>
+                <button type="button" class="carousel-control-prev" data-bs-target="#carousel-init" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button type="button" class="carousel-control-next" data-bs-target="#carousel-init" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" class="active" data-bs-target="carousel-init" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="carousel-init" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="carousel-init" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./imagens/foto-principal.jpeg" alt="Sala cirurgica" class="d-block w-100 rounded">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title text-colored">Sobre</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga exercitationem a placeat ducimus quo expedita animi aliquid, quis consequuntur voluptates recusandae rerum tempore doloribus dolorum voluptatum earum eius est inventore!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique obcaecati unde doloribus placeat culpa minus odio, dolorum labore minima ducimus! Quibusdam adipisci possimus nam magnam harum blanditiis nobis aperiam voluptatum.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias corrupti perferendis quas facilis itaque maiores? Ex, vitae inventore dolorum vero saepe ea voluptatibus? Ducimus labore sequi necessitatibus sed nemo id.</p>
+                        </div>
+                    </div>
+                    <div class="row text-center refes">
+                        <div class="col-md-4">
+                            <i class="bi bi-truck fs-1"></i>
+                            <h3 class="section-title fs-5">Comercialização e distribuição de produtos</h3>
+                            <p>Comprometimento, segurança e eficiência</p>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="bi bi-clock fs-1"></i>
+                            <h3 class="section-title fs-5">Atendimento 24h, 7 dias por semana</h3>
+                            <p>Conforto, comodidade e segurança</p>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="bi bi-hospital fs-1"></i>
+                            <h3 class="section-title fs-5">A única que está presente</h3>
+                            <p>Antes, durante e depois da cirurgia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pt-5 pb-5" id="eventos">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center text-colored">Eventos</h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./imagens/eventos/imagem1.jpeg" alt="" class="d-block w-100 mb-2 rounded">
+                        <h3 class="section-title pt-3 fs-5">
+                            Workshop - A importância da relação médico paciente
+                            <i class="bi bi-award"></i>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam aliquam quisquam aliquid nemo officia iste, modi doloremque natus dolor dolores quas architecto qui esse, voluptas explicabo? Vel in sit consequatur.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/eventos/imagem2.jpeg" alt="" class="d-block w-100 mb-2 rounded">
+                        <h3 class="section-title pt-3 fs-5">
+                            Workshop - Materiais para cirurgias de coluna
+                            <i class="bi bi-award"></i>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam aliquam quisquam aliquid nemo officia iste, modi doloremque natus dolor dolores quas architecto qui esse, voluptas explicabo? Vel in sit consequatur.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./imagens/eventos/imagem3.jpeg" alt="" class="d-block w-100 mb-2 rounded">
+                        <h3 class="section-title pt-3 fs-5">
+                            Auditorias em Produtos <br>de saúde
+                            <i class="bi bi-award"></i>
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam aliquam quisquam aliquid nemo officia iste, modi doloremque natus dolor dolores quas architecto qui esse, voluptas explicabo? Vel in sit consequatur.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pt-5 pb-5" id="especialidades">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center text-colored mb-5">Nossas especialidades</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <nav class="nav nav-pills flex-column">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#colunac" class="nav-link fw-bold text-start active">Coluna</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#neuroc" class="nav-link fw-bold text-start">Neurocirurgia</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#otorrinoc" class="nav-link fw-bold text-start">Otorrino</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#cardiovasc" class="nav-link fw-bold text-start">Cardiovascular</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#ortopediac" class="nav-link fw-bold text-start">Ortopedia</button>
+                        </nav>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="colunac">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="./imagens/especialidades/imagem1.jpeg" alt="" class="d-block w-100">
+                                        <h5 class="fw-bold mt-2">Produto 1</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="./imagens/especialidades/imagem1.jpeg" alt="" class="d-block w-100">
+                                        <h5 class="fw-bold mt-2">Produto 2</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="./imagens/especialidades/imagem1.jpeg" alt="" class="d-block w-100">
+                                        <h5 class="fw-bold mt-2">Produto 3</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="./imagens/especialidades/imagem1.jpeg" alt="" class="d-block w-100">
+                                        <h5 class="fw-bold mt-2">Produto 1</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="./imagens/especialidades/imagem1.jpeg" alt="" class="d-block w-100">
+                                        <h5 class="fw-bold mt-2">Produto 2</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="./imagens/especialidades/imagem1.jpeg" alt="" class="d-block w-100">
+                                        <h5 class="fw-bold mt-2">Produto 3</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div class="tab-pane" id="neuroc">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="./imagens/especialidades/imagem2.jpeg" alt="" class="d-block w-100">
+                                        <h5 class="fw-bold mt-2">Produto 1</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="./imagens/especialidades/imagem2.jpeg" alt="" class="d-block w-100">
+                                        <h5 class="fw-bold mt-2">Produto 2</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="./imagens/especialidades/imagem2.jpeg" alt="" class="d-block w-100">
+                                        <h5 class="fw-bold mt-2">Produto 3</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content">
+                            <div class="tab-pane" id="otorrinoc">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="./imagens/especialidades/imagem3.jpeg" alt="" class="d-block w-100">
+                                        <h5 class="fw-bold mt-2">Produto 1</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="./imagens/especialidades/imagem3.jpeg" alt="" class="d-block w-100">
+                                        <h5 class="fw-bold mt-2">Produto 2</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="./imagens/especialidades/imagem3.jpeg" alt="" class="d-block w-100">
+                                        <h5 class="fw-bold mt-2">Produto 3</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="cardiovasc">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="./imagens/especialidades/imagem4.jpeg" alt="" class="d-block w-100">
+                                        <h5 class="fw-bold mt-2">Produto 1</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="./imagens/especialidades/imagem4.jpeg" alt="" class="d-block w-100">
+                                        <h5 class="fw-bold mt-2">Produto 2</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="./imagens/especialidades/imagem4.jpeg" alt="" class="d-block w-100">
+                                        <h5 class="fw-bold mt-2">Produto 3</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="ortopediac">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="./imagens/especialidades/imagem5.jpeg" alt="" class="d-block w-100">
+                                        <h5 class="fw-bold mt-2">Produto 1</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="./imagens/especialidades/imagem5.jpeg" alt="" class="d-block w-100">
+                                        <h5 class="fw-bold mt-2">Produto 2</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="./imagens/especialidades/imagem5.jpeg" alt="" class="d-block w-100">
+                                        <h5 class="fw-bold mt-2">Produto 3</h5>
+                                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pt-5 pb-5" id="contato">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center text-colored">Fale conosco</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-1">
+                                <label for="nome" class="form-label fw-bold pt-2 text-colored">Seu nome</label>
+                                <input type="text" name="nome" id="nome" class="form-control">
+                            </div>
+                            <div class="mb-1">
+                                <label for="email" class="form-label fw-bold pt-2 text-colored">Seu e-mail</label>
+                                <input type="email" name="email" id="email" class="form-control">
+                            </div>
+                            <div class="mb-1">
+                                <label for="tel" class="form-label fw-bold pt-2 text-colored">Seu telefone (Opcional)</label>
+                                <input type="tel" name="tel" id="tel" class="form-control">
+                            </div>
+                            <div class="mb-1">
+                                <label for="mensagem" class="form-label fw-bold pt-2 text-colored">Sua mensagem</label>
+                                <textarea name="mensagem" id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold mt-2">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="text-colored section-title fs-5">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-2 me-2">
+                                    <a href="#">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="text-colored section-title fs-5">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Rua Teste Exemplo nº 145, Bairo Bootstrap - São Paulo - SP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="main.js"></script>
+    <script src="./lib/jquery.mask.min.js"></script>
+    <script src="./lib/jquery.validate.min.js"></script>
+    <script src="./lib/messages_pt_BR.min.js"></script>
+</body>
+</html>
